@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Howlstagram</string>
+    <string name="facebook_app_id">873009302900995</string>
+    <string name="fb_login_protocol_scheme">fb873009302900995</string>
+
+    <!-- Sign In -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin_email">Signup or Signin by email</string>
+    <string name="signin_google">Google login</string>
+    <string name="signin_facebook">Facebook login</string>
+    <string name="signup_complete">Membership success</string>
+    <string name="signin_complete">Login success</string>
+    <string name="signout">Signout</string>
+    <string name="signout_success">Signout success</string>
+    <string name="signout_fail">Signout fail</string>
+    <string name="signout_fail_null">Please enter your email and password</string>
+
+    <!-- Bottom Navigation View -->
+    <string name="home">home</string>
+    <string name="search">Search</string>
+    <string name="gallery">Gallery</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+
+    <!-- Account -->
+    <string name="post">Post</string>
+    <string name="following">Following</string>
+    <string name="follower">Follower</string>
+    <string name="follow">Follow</string>
+    <string name="follow_cancel">Follow cancel</string>
+    <string name="profile">Profile</string>
+    <string name="count_0">0</string>
+
+    <!-- Alarm -->
+    <string name="alarm_favorite">Liked the press</string>
+    <string name="alarm_comment">left a message</string>
+    <string name="alarm_follow">has started to follow your account</string>
+
+    <!-- Comment -->
+    <string name="send">Send</string>
+
+    <!-- Add Photo -->
+    <string name="upload_image">Photo Upload</string>
+    <string name="hint_image_content">Image description</string>
+    <string name="upload_success">Upload success</string>
+    <string name="upload_fail">Upload fail</string>
+
+    <!-- Toolbar -->
+    <string name="back">Back</string>
+
+    <!-- etc -->
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+</resources>
