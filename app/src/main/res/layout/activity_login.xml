@@ -22,7 +22,8 @@
                                                        android:layout_height="wrap_content"
                                                        android:layout_marginLeft="20dp"
                                                        android:layout_marginRight="20dp">
-            <EditText android:layout_width="match_parent"
+            <EditText android:id="@+id/email_edittext"
+                      android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:hint="@string/email"/>
         </android.support.design.widget.TextInputLayout>
@@ -30,12 +31,15 @@
                                                        android:layout_height="wrap_content"
                                                        android:layout_marginLeft="20dp"
                                                        android:layout_marginRight="20dp">
-            <EditText android:layout_width="match_parent"
+            <EditText android:inputType="textPassword"
+                      android:id="@+id/password_edittext"
+                      android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:hint="@string/password"/>
         </android.support.design.widget.TextInputLayout>
 
-        <Button android:text="@string/signin_email"
+        <Button android:id="@+id/email_login_button"
+                android:text="@string/signin_email"
                 android:theme="@style/ButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
