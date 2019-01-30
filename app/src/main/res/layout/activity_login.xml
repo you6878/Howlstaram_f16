@@ -47,7 +47,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="35dp"/>
-        <Button android:text="@string/signin_facebook"
+        <Button android:id="@+id/facebook_login_button"
+                android:text="@string/signin_facebook"
                 android:textColor="@color/colorWhite"
                 android:background="@drawable/btn_signin_facebook"
                 android:layout_width="match_parent"
