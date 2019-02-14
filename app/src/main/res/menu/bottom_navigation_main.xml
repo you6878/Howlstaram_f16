@@ -9,20 +9,20 @@
             android:id="@+id/action_search"
             android:icon="@drawable/ic_search"
             android:enabled="true"
-            android:title="@string/home"/>
+            android:title="@string/search"/>
     <item
             android:id="@+id/action_add_photo"
             android:icon="@drawable/ic_add_a_photo"
             android:enabled="true"
-            android:title="@string/home"/>
+            android:title="@string/upload_image"/>
     <item
             android:id="@+id/action_favorite_alarm"
             android:icon="@drawable/ic_favorite_border"
             android:enabled="true"
-            android:title="@string/home"/>
+            android:title="@string/favorite"/>
     <item
             android:id="@+id/action_account"
             android:icon="@drawable/ic_account"
             android:enabled="true"
-            android:title="@string/home"/>
+            android:title="@string/account"/>
 </menu>
