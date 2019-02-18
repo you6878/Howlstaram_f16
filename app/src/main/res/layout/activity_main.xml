@@ -15,6 +15,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
             <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="22dp"
+                    android:src="@drawable/ic_arrow_back"
+                    android:id="@+id/toolbar_btn_back"
+            />
+            <TextView
+                    android:text="UserID"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorNavIcon"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/toolbar_btn_back"
+                    android:id="@+id/toolbar_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            <ImageView
+                    android:id="@+id/toolbar_title_image"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:src="@drawable/logo_title"/>
