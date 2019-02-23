@@ -1,5 +1,6 @@
 package com.howl.howlstagram_f16.navigation
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
@@ -98,6 +99,11 @@ class DetailViewFragment : Fragment(){
                 bundle.putString("userId",contentDTOs[p1].userId)
                 fragment.arguments = bundle
                 activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.main_content,fragment)?.commit()
+            }
+            viewholder.detailviewitem_comment_imageview.setOnClickListener { v ->
+                var intent = Intent(v.context,CommentActivity::class.java)
+                intent.putExtra("contentUid",contentUidList[p1])
+                startActivity(intent)
             }
         }
         fun favoriteEvent(position : Int){
