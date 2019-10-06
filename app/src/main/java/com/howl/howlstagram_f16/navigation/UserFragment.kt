@@ -3,11 +3,11 @@ package com.howl.howlstagram_f16.navigation
 import android.content.Intent
 import android.graphics.PorterDuff
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.LinearLayoutCompat
-import android.support.v7.widget.RecyclerView
+import androidx.fragment.app.Fragment
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.appcompat.widget.LinearLayoutCompat
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -64,7 +64,7 @@ class UserFragment : Fragment(){
             }
         }
         fragmentView?.account_reyclerview?.adapter = UserFragmentRecyclerViewAdapter()
-        fragmentView?.account_reyclerview?.layoutManager = GridLayoutManager(activity!!,3)
+        fragmentView?.account_reyclerview?.layoutManager = GridLayoutManager(activity!!, 3)
 
         fragmentView?.account_iv_profile?.setOnClickListener {
             var photoPickerIntent = Intent(Intent.ACTION_PICK)

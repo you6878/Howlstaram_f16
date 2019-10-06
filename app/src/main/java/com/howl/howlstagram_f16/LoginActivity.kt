@@ -1,7 +1,7 @@
 package com.howl.howlstagram_f16
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.google.android.gms.auth.api.Auth
@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.activity_login.*
 import com.google.android.gms.common.util.IOUtils.toByteArray
 import android.content.pm.PackageManager
 import android.content.pm.PackageInfo
-import android.support.v4.app.FragmentActivity
+import androidx.fragment.app.FragmentActivity
 import android.util.Base64
 import android.util.Log
 import com.facebook.AccessToken

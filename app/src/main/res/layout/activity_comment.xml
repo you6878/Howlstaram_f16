@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".navigation.CommentActivity">
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
             android:id="@+id/my_toolbar"
             android:layout_width="match_parent"
             android:layout_height="35dp">
@@ -14,7 +14,7 @@
                 android:src="@drawable/logo_title"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
     <LinearLayout
             android:orientation="horizontal"
             android:id="@+id/toolbar_division"
@@ -22,13 +22,13 @@
             android:background="@color/colorDivision"
             android:layout_width="match_parent"
             android:layout_height="1dp"></LinearLayout>
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
             android:layout_marginTop="8dp"
             android:layout_marginBottom="30dp"
             android:layout_below="@+id/toolbar_division"
             android:id="@+id/comment_recyclerview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+            android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
     <Button
             android:id="@+id/comment_btn_send"
             android:layout_alignParentRight="true"
